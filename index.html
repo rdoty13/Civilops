@@ -9,7 +9,7 @@
 <div class="row"><div><label>Project</label><select id="project"><option value="Demo Solar">Demo Solar</option><option value="Demo BESS">Demo BESS</option></select></div><div class="actions"><button onclick="showAdd()">+ Call On Equipment</button><button class="secondary" onclick="exportData()">Export Backup</button><button class="secondary" onclick="resetDemo()">Reset Demo</button></div></div>
 <div id="metrics" class="cards"></div><div id="notice"></div>
 <div class="panel"><div class="grid"><div><label>Search equipment number or name</label><input id="search" placeholder="Try 24 or excavator" oninput="render()"></div><div><label>Filter crew</label><select id="crewFilter" onchange="render()"><option value="">All crews</option><option>BESS</option><option>Trenching</option><option>Grading</option><option>Roads</option><option>General Civil</option></select></div><div><label>Filter status</label><select id="statusFilter" onchange="render()"><option value="">All statuses</option><option>Active</option><option>Down</option><option>Called Off</option><option>Off Site</option></select></div></div></div>
-<nav><a href="finances.html"><button type="button">Equipment Finances →</button></a></nav><section id="list"></section><section id="detail"></section>
+<nav><a href="finances.html"><button type="button">Equipment Finances →</button></a> <a href="assets.html"><button type="button">Site Assets & Attachments →</button></a></nav><section id="list"></section><section id="detail"></section>
 <div id="form" class="panel hidden"></div>
 <p class="muted">Safety note: demo inspection and return-to-service actions do not substitute for approved equipment inspection, lockout, or repair clearance procedures.</p></main>
 <script>
